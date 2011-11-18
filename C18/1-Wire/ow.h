@@ -11,6 +11,8 @@
  * names - OW_LAT, OW_PIN, OW_TRIS
  *
  * You can use this library for interfacing the Maxim thermometers like DS18S20
+ * NOTE: This library works for 40MHz Frequency i.e. TCY = 0.1us
+ * You can adjust the timings accordingly, at least for now!
  */
 #ifndef __OW_H
 #define __OW_H
